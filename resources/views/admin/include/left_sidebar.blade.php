@@ -19,26 +19,19 @@
                 <div class="menu-title">Dashboard</div>
               </a>
             </li>
-			
+
             <li>
               <a href="javascript:;" class="has-arrow">
                 <div class="parent-icon"><i class="bi bi-grid-fill"></i>
                 </div>
-                <div class="menu-title">Application</div>
+                <div class="menu-title">Vendor</div>
               </a>
               <ul>
-                <li> <a href="app-emailbox.html"><i class="bi bi-circle"></i>Email</a>
+                <li> <a href="app-emailbox.html"><i class="bi bi-circle"></i>Vendor List</a>
                 </li>
-                <li> <a href="app-chat-box.html"><i class="bi bi-circle"></i>Chat Box</a>
+                <li> <a href="app-chat-box.html"><i class="bi bi-circle"></i>Add Vendor</a>
                 </li>
-                <li> <a href="app-file-manager.html"><i class="bi bi-circle"></i>File Manager</a>
-                </li>
-                <li> <a href="app-to-do.html"><i class="bi bi-circle"></i>Todo List</a>
-                </li>
-                <li> <a href="app-invoice.html"><i class="bi bi-circle"></i>Invoice</a>
-                </li>
-                <li> <a href="app-fullcalender.html"><i class="bi bi-circle"></i>Calendar</a>
-                </li>
+
               </ul>
             </li>
             <li class="menu-label">UI Elements</li>
@@ -46,10 +39,12 @@
               <a href="javascript:;" class="has-arrow">
                 <div class="parent-icon"><i class="bi bi-droplet-fill"></i>
                 </div>
-                <div class="menu-title">Widgets</div>
+                <div class="menu-title">Setup</div>
               </a>
               <ul>
-                <li> <a href="widgets-static-widgets.html"><i class="bi bi-circle"></i>Static Widgets</a>
+                <li> <a href="{{ url('admin/category') }}"><i class="bi bi-circle"></i>Category</a>
+                </li>
+                <li> <a href="{{ url('admin/unit') }}"><i class="bi bi-circle"></i>Unit</a>
                 </li>
                 <li> <a href="widgets-data-widgets.html"><i class="bi bi-circle"></i>Data Widgets</a>
                 </li>
