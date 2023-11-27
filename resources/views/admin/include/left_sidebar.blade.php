@@ -27,13 +27,60 @@
                 <div class="menu-title">Vendor</div>
               </a>
               <ul>
-                <li> <a href="app-emailbox.html"><i class="bi bi-circle"></i>Vendor List</a>
+                <li> <a href="{{ url('admin/vendor') }}"><i class="bi bi-circle"></i>Vendor List</a>
                 </li>
-                <li> <a href="app-chat-box.html"><i class="bi bi-circle"></i>Add Vendor</a>
+                <li> <a href="{{ url('admin/vendor/create') }}"><i class="bi bi-circle"></i>Add Vendor</a>
                 </li>
 
               </ul>
             </li>
+
+            <li>
+                <a href="javascript:;" class="has-arrow">
+                  <div class="parent-icon"><i class="bi bi-grid-fill"></i>
+                  </div>
+                  <div class="menu-title">Customer</div>
+                </a>
+                <ul>
+                  <li> <a href="{{ url('admin/customer') }}"><i class="bi bi-circle"></i>Customer List</a>
+                  </li>
+                  <li> <a href="{{ url('admin/customer/create') }}"><i class="bi bi-circle"></i>Add Customer</a>
+                  </li>
+
+                </ul>
+            </li>
+
+            <li>
+                <a href="javascript:;" class="has-arrow">
+                  <div class="parent-icon"><i class="bi bi-grid-fill"></i>
+                  </div>
+                  <div class="menu-title">Purchase</div>
+                </a>
+                <ul>
+                  <li> <a href="{{ url('admin/purchase') }}"><i class="bi bi-circle"></i>Purchase List</a>
+                  </li>
+                  <li> <a href="{{ url('admin/purchase/create') }}"><i class="bi bi-circle"></i>Add Purchase</a>
+                  </li>
+
+                </ul>
+            </li>
+
+            <li>
+                <a href="javascript:;" class="has-arrow">
+                  <div class="parent-icon"><i class="bi bi-grid-fill"></i>
+                  </div>
+                  <div class="menu-title">Product</div>
+                </a>
+                <ul>
+                  <li> <a href="{{ url('admin/item') }}"><i class="bi bi-circle"></i>Product List</a>
+                  </li>
+                  <li> <a href="{{ url('admin/item/create') }}"><i class="bi bi-circle"></i>Add Product</a>
+                  </li>
+
+                </ul>
+            </li>
+
+
             <li class="menu-label">UI Elements</li>
             <li>
               <a href="javascript:;" class="has-arrow">
