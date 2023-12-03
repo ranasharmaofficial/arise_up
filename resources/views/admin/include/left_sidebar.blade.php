@@ -13,7 +13,7 @@
           <!--navigation-->
           <ul class="metismenu" id="menu">
             <li>
-              <a href="{{ route('admin.dashboard') }}">
+              <a href="{{ route('dashboard') }}">
                 <div class="parent-icon"><i class="bi bi-house-fill"></i>
                 </div>
                 <div class="menu-title">Dashboard</div>

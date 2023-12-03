@@ -7,8 +7,7 @@ use App\Models\UserLogin;
 
 class AdminController extends Controller
 {
-    public function adminDashboard()
-    {
+    public function adminDashboard(){
         return view('admin.dashboard.dashboard_view');
     }
 
